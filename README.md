@@ -8,3 +8,9 @@ This is an interactive and informative info sheet on Mediterranean countries! It
 There is also information on what European country colonized each Mediterranean country, if any. Users can use a dropdown to filter by English, French, and Italian colonization. The result will also display the year the Mediterranean country achieved independence from said European country.
 
 Thank you for interacting with my project!
+
+Resources:
+https://www.cia.gov/the-world-factbook/countries/
+Encyclopedia Britannica
+https://history.state.gov/
+https://aljazeera.com
