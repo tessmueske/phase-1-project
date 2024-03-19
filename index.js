@@ -38,92 +38,92 @@ function fetchContent(){
     },
     {
         "countryName": "Tunisia",
-        "population": 433432,
+        "population": 11976182,
         "capital": "Tunis",
-        "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
-        "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "squareKilometers": 163610,
+        "religionsRepresented": ["Islam - Sunni"],
+        "languagesRepresented": ["Arabic", "French", "Tamazight"],
+        "occupiedBy": "France",
+        "yearOfIndependence": 1956
     },
     {
         "countryName": "Libya",
-        "population": 3433432,
+        "population": 7252573,
         "capital": "Tripoli",
         "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
-        "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "religionsRepresented": ["Islam - Sunni", "Christian"],
+        "languagesRepresented": ["Arabic", "Italian", "English", "Tamazight"],
+        "occupiedBy": "Italy",
+        "yearOfIndependence": 1947
     },
     {
         "countryName": "Egypt",
-        "population": 3433432,
+        "population": 109546720,
         "capital": "Cairo",
-        "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
+        "squareKilometers": 1001450,
+        "religionsRepresented": ["Islam - Sunni", "Christian - Coptic"],
+        "languagesRepresented": ["Arabic", "English", "French"],
         "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "yearOfIndependence": 1956
     },
     {
-        "countryName": "Cyprus",
-        "population": 3433432,
+        "countryName": "Cyprus (incl. both Greek and Turkish areas)",
+        "population": 1308120,
         "capital": "Nicosia",
-        "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
+        "squareKilometers": 9251,
+        "religionsRepresented": ["Christianity - Eastern Orthodox", "Islam - Sunni"],
+        "languagesRepresented": ["Greek", "Turkish", "English", "Romanian", "Bulgarian"],
         "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "yearOfIndependence": 1960
     },
     {
         "countryName": "Turkey",
-        "population": 3433432,
+        "population": 83593483,
         "capital": "Istanbul",
-        "squareMiles": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
-        "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "squareMiles": 783562,
+        "religionsRepresented": ["Islam - Sunni"],
+        "languagesRepresented": ["Turkish", "Kurdish"],
+        "occupiedBy": "null", 
+        "yearOfIndependence": "null"
     },
     {
         "countryName": "Palestine",
-        "population": 3433432,
-        "capital": "Algiers",
-        "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
-        "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "population": 5227193,
+        "capital": "Jerusalem",
+        "squareKilometers": 6020,
+        "religionsRepresented": ["Islam - Sunni", "Christianity - Orthodox"],
+        "languagesRepresented": ["Arabic", "Hebrew"],
+        "occupiedBy": ["England", "Israel"],
+        "yearOfIndependence": "Occupied by Israel officially since 1948"
     },
     {
         "countryName": "Jordan",
-        "population": 3433432,
+        "population": 11086716,
         "capital": "Amman",
-        "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
+        "squareKilometers": 89342,
+        "religionsRepresented": ["Islam - Sunni", "Christianity - Orthodox"],
         "languagesRepresented": ["Arabic", "English"],
         "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "yearOfIndependence": 1946
     },
     {
         "countryName": "Lebanon",
-        "population": 3433432,
+        "population": 5331203,
         "capital": "Beirut",
-        "squareKilometers": 4234234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
-        "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "squareKilometers": 10400,
+        "religionsRepresented": ["Islam - Sunni", "Islam - Shia", "Christian - Maronite", "Druze"],
+        "languagesRepresented": ["Arabic", "France", "English", "Armenian"],
+        "occupiedBy": "France",
+        "yearOfIndependence": 1943
     },
     {
         "countryName": "Syria",
-        "population": 3433432,
-        "capital": "Algiers",
-        "squareKilometers": 34234,
-        "religionsRepresented": ["Christianity", "Islam"],
-        "languagesRepresented": ["Arabic", "English"],
-        "occupiedBy": "England",
-        "yearOfIndependence": 2024
+        "population": 22933531,
+        "capital": "Damascus",
+        "squareKilometers": 187437,
+        "religionsRepresented": ["Islam - Sunni", "Christianity - Orthodox", "Druze"],
+        "languagesRepresented": ["Arabic", "Kurdish", "Armenian"],
+        "occupiedBy": "France",
+        "yearOfIndependence": 1946
     }
 ]
