@@ -48,9 +48,9 @@ function fetchContent(){
     },
     {
         "countryName": "Libya",
-        "population": 7252573,
+        "population": 7252000,
         "capital": "Tripoli",
-        "squareKilometers": 4234234,
+        "squareKilometers": 1759540,
         "religionsRepresented": ["Islam - Sunni", "Christian"],
         "languagesRepresented": ["Arabic", "Italian", "English", "Tamazight"],
         "occupiedBy": "Italy",
@@ -58,9 +58,9 @@ function fetchContent(){
     },
     {
         "countryName": "Egypt",
-        "population": 109546720,
+        "population": 109546000,
         "capital": "Cairo",
-        "squareKilometers": 1001450,
+        "squareKilometers": 1002000,
         "religionsRepresented": ["Islam - Sunni", "Christian - Coptic"],
         "languagesRepresented": ["Arabic", "English", "French"],
         "occupiedBy": "England",
@@ -79,12 +79,12 @@ function fetchContent(){
     {
         "countryName": "Turkey",
         "population": 83593483,
-        "capital": "Istanbul",
-        "squareMiles": 783562,
+        "capital": "Ankara",
+        "squareKilometers": 783562,
         "religionsRepresented": ["Islam - Sunni"],
         "languagesRepresented": ["Turkish", "Kurdish"],
-        "occupiedBy": "null", 
-        "yearOfIndependence": "null"
+        "occupiedBy": "None", 
+        "yearOfIndependence": 1923
     },
     {
         "countryName": "Palestine",
@@ -94,7 +94,7 @@ function fetchContent(){
         "religionsRepresented": ["Islam - Sunni", "Christianity - Orthodox"],
         "languagesRepresented": ["Arabic", "Hebrew"],
         "occupiedBy": ["England", "Israel"],
-        "yearOfIndependence": "Occupied by Israel officially since 1948"
+        "yearOfIndependence": "Currently occupied by Israel since 1948"
     },
     {
         "countryName": "Jordan",
@@ -112,7 +112,7 @@ function fetchContent(){
         "capital": "Beirut",
         "squareKilometers": 10400,
         "religionsRepresented": ["Islam - Sunni", "Islam - Shia", "Christian - Maronite", "Druze"],
-        "languagesRepresented": ["Arabic", "France", "English", "Armenian"],
+        "languagesRepresented": ["Arabic", "French", "English", "Armenian"],
         "occupiedBy": "France",
         "yearOfIndependence": 1943
     },
