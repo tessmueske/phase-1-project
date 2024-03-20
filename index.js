@@ -2,6 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchContent();
 });
 
+const headerText = document.getElementsByClassName('card')
+console.log(headerText)
+    // headerText.style.fontFamily = 'Fuzzy Bubbles, cursive';
+
 function fetchContent(){
     fetch("http://localhost:3000/countries")
     .then(res => res.json())
@@ -42,26 +46,4 @@ function fetchContent(){
         });
     })
     .catch(error => console.error('Error fetching JSON:', error));
-}
-
-function createCountryCards() {
-const countries = [/* your JSON data */];
-
-const container = document.getElementById('container'); // Assuming you have a container element in your HTML where you want to render the cards
-
-countries.forEach(country => {
-    const card = document.createElement('div');
-    card.classList.add('card');
-    card.innerHTML = `
-        <h2>${country.name}</h2>
-        <p>Population: ${country.population}</p>
-        <p>Capital: ${country.capital}</p>
-        <p>Square Kilometers: ${country.squareKilometers}</p>
-        <p>Religions Represented: ${country.religionsRepresented.join(', ')}</p>
-        <p>Languages Represented: ${country.languagesRepresented.join(', ')}</p>
-        <p>Occupied By: ${country.occupiedBy}</p>
-        <p>Year of Independence: ${country.yearOfIndependence}</p>
-    `;
-    container.appendChild(card);
-});
 }
