@@ -1,11 +1,44 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetchContent()
-})
+    fetchContent();
+});
 
 function fetchContent(){
-    fetch ("http://localhost:3000/")
+    fetch("http://localhost:3000/")
     .then(res => res.json())
     .then(data => {
-        //do something w this data
+        console.log(data)
+        const jsonContainer = document.getElementById('json-container');
+
+        data.forEach(country => {
+            const countryDiv = document.createElement('div');
+            const countryName = document.createElement('h2');
+            const population = document.createElement('p');
+            const capital = document.createElement('p');
+            const squareKilometers = document.createElement('p');
+            const religionsRepresented = document.createElement('p');
+            const languagesRepresented = document.createElement('p');
+            const occupiedBy = document.createElement('p');
+            const yearOfIndependence = document.createElement('p');
+
+            countryName.textContent = country.countryName;
+            population.textContent = `Population: ${country.population}`;
+            capital.textContent = `Capital: ${country.capital}`;
+            squareKilometers.textContent = `Square Kilometers: ${country.squareKilometers}`;
+            religionsRepresented.textContent = `Religions Represented: ${country.religionsRepresented.join(', ')}`;
+            languagesRepresented.textContent = `Languages Represented: ${country.languagesRepresented.join(', ')}`;
+            occupiedBy.textContent = `Occupied By: ${country.occupiedBy}`;
+            yearOfIndependence.textContent = `Year Of Independence: ${country.yearOfIndependence}`;
+
+            countryDiv.appendChild(countryName);
+            countryDiv.appendChild(population);
+            countryDiv.appendChild(capital);
+            countryDiv.appendChild(squareKilometers);
+            countryDiv.appendChild(religionsRepresented);
+            countryDiv.appendChild(languagesRepresented);
+            countryDiv.appendChild(occupiedBy);
+            countryDiv.appendChild(yearOfIndependence);
+
+            jsonContainer.appendChild(countryDiv);
+        });
     })
 }
