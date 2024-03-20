@@ -10,6 +10,7 @@ function fetchContent(){
 
         data.forEach(country => {
             const countryDiv = document.createElement('div');
+            countryDiv.classList.add('card');
             const countryName = document.createElement('h2');
             const population = document.createElement('p');
             const capital = document.createElement('p');
@@ -19,7 +20,7 @@ function fetchContent(){
             const occupiedBy = document.createElement('p');
             const yearOfIndependence = document.createElement('p');
 
-            countryName.textContent = country.countryName;
+            countryName.textContent = `Country Name: ${country.name}`;
             population.textContent = `Population: ${country.population}`;
             capital.textContent = `Capital: ${country.capital}`;
             squareKilometers.textContent = `Square Kilometers: ${country.squareKilometers}`;
@@ -41,4 +42,26 @@ function fetchContent(){
         });
     })
     .catch(error => console.error('Error fetching JSON:', error));
+}
+
+function createCountryCards() {
+const countries = [/* your JSON data */];
+
+const container = document.getElementById('container'); // Assuming you have a container element in your HTML where you want to render the cards
+
+countries.forEach(country => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+    card.innerHTML = `
+        <h2>${country.name}</h2>
+        <p>Population: ${country.population}</p>
+        <p>Capital: ${country.capital}</p>
+        <p>Square Kilometers: ${country.squareKilometers}</p>
+        <p>Religions Represented: ${country.religionsRepresented.join(', ')}</p>
+        <p>Languages Represented: ${country.languagesRepresented.join(', ')}</p>
+        <p>Occupied By: ${country.occupiedBy}</p>
+        <p>Year of Independence: ${country.yearOfIndependence}</p>
+    `;
+    container.appendChild(card);
+});
 }
