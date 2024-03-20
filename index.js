@@ -3,11 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchContent(){
-    fetch("http://localhost:3000/")
+    fetch("http://localhost:3000/countries")
     .then(res => res.json())
     .then(data => {
-        console.log(data)
-        const jsonContainer = document.getElementById('json-container');
+        const jsonContainer = document.getElementById('json-here');
 
         data.forEach(country => {
             const countryDiv = document.createElement('div');
@@ -41,4 +40,5 @@ function fetchContent(){
             jsonContainer.appendChild(countryDiv);
         });
     })
+    .catch(error => console.error('Error fetching JSON:', error));
 }
