@@ -60,16 +60,6 @@
         "yearOfIndependence": 1960
       },
       {
-        "name": "Turkey",
-        "population": 83593483,
-        "capital": "Ankara",
-        "squareKilometers": 783562,
-        "religionsRepresented": ["Islam - Sunni"],
-        "languagesRepresented": ["Turkish", "Kurdish"],
-        "occupiedBy": "None",
-        "yearOfIndependence": 1923
-      },
-      {
         "name": "Palestine",
         "population": 5227193,
         "capital": "Jerusalem",

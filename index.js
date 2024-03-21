@@ -2,10 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchContent();
 });
 
-const headerText = document.getElementsByClassName('card')
-console.log(headerText)
-    // headerText.style.fontFamily = 'Fuzzy Bubbles, cursive';
-
 function fetchContent(){
     fetch("http://localhost:3000/countries")
     .then(res => res.json())
@@ -15,7 +11,7 @@ function fetchContent(){
         data.forEach(country => {
             const countryDiv = document.createElement('div');
             countryDiv.classList.add('card');
-            const countryName = document.createElement('h2');
+            const countryName = document.createElement('header');
             const population = document.createElement('p');
             const capital = document.createElement('p');
             const squareKilometers = document.createElement('p');
@@ -25,6 +21,9 @@ function fetchContent(){
             const yearOfIndependence = document.createElement('p');
 
             countryName.textContent = `Country Name: ${country.name}`;
+                countryName.style.textDecoration = 'underline';
+                countryName.style.fontFamily = 'Fuzzy Bubbles, cursive';
+                countryName.style.fontSize = '36px';
             population.textContent = `Population: ${country.population}`;
             capital.textContent = `Capital: ${country.capital}`;
             squareKilometers.textContent = `Square Kilometers: ${country.squareKilometers}`;
