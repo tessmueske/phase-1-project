@@ -80,6 +80,9 @@ function setupFilters(data) {
             filteredData = data.filter(country => country.yearOfIndependence === 1956);
         } else if (criteria === 'language') {
             filteredData = data.filter(country => country.languagesRepresented.includes('French'));
+        } else if (criteria === 'all') {
+            renderData(data);
+            return; 
         }
     
         renderData(filteredData.length > 0 ? filteredData : data);
