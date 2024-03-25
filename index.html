@@ -3,15 +3,13 @@
 <head>
     <div class="header">
         <h1>♡ Mediterranean countries! ♡</h1>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Filter by...</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">Population less than 10 million</a>
-              <a href="#">French speakers</a>
-              <a href="#">Year of independence: 1956</a>
-            </div>
-          </div>
-      </div>
+        <label for="dropdown">Filter by...</label> 
+            <select name="countries" id="countries-filter"> 
+                <option value="population">Population less than 10 million</option> 
+                <option value="language">French-speakers</option> 
+                <option value="independence">Year of independence: 1956</option> 
+    </select>
+    </div>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

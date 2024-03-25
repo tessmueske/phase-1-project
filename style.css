@@ -11,17 +11,7 @@
     font-family: 'Brawler', sans-serif;
     background-color: #CD5C5C;
     padding: 20px;
-}
-
-.dropdown-content {
-    font-family: 'Brawler', sans-serif;
-    font-size: 18px;
-}
-
-.dropbtn {
-    background-color: black !important;
-    color: white;
-}
+  }
 
 #json-here {
     display: flex;
