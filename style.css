@@ -13,6 +13,16 @@
     padding: 20px;
 }
 
+.dropdown-content {
+    font-family: 'Brawler', sans-serif;
+    font-size: 18px;
+}
+
+.dropbtn {
+    background-color: black !important;
+    color: white;
+}
+
 #json-here {
     display: flex;
     flex-wrap: wrap;
