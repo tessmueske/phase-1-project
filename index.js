@@ -88,3 +88,24 @@ function setupFilters(data) {
         renderData(filteredData.length > 0 ? filteredData : data);
     });
 }
+
+
+
+
+
+
+
+
+
+function learningParameters(data){
+    //code here
+}
+
+learningParameters(argument); 
+
+
+function learningMoreParameters (data, moreData){
+    //code here
+}
+
+learningMoreParameters(argument, anotherArgument)
